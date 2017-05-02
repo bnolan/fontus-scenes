@@ -3,7 +3,7 @@ layout: default
 title: A-Minus markup reference
 ---
 
-Fontus uses **a-minus** markup to express scenes. Scenes must
+Fontus uses **a-minus** markup to describe scenes. Scenes must
 be **valid xml**, but we recommend serving them using the `.html` 
 extension. View the <a href="/scenes/homeroom.html">homeroom</a>
 to see an example scene.
