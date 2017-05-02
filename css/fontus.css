@@ -1,0 +1,52 @@
+  /* http://www.colourlovers.com/palette/1930/cheer_up_emo_kid */
+  
+body{
+  font-family: roboto, sans-serif;
+  color: #556270;
+}
+section{
+  max-width: 480px;
+  margin: auto;
+}
+
+a{
+  color: #4ECDC4;
+}
+
+.docs{
+  padding-left: 20px;
+}
+
+.docs h1, h2, h3{
+  margin-left: -20px;
+}
+
+.docs h1{
+  font-size: 1.5em;
+}
+
+.docs h2{
+  font-size: 1.2em;
+}
+
+.docs h3{
+  font-size: 1em;
+}
+
+hr{
+  height: 1px;
+  border: none;
+  background: #556270;
+  margin: 40px 0;
+}
+
+header h1 a{
+  color: inherit;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  opacity: 0.5;
+  margin-bottom: 40px;
+}

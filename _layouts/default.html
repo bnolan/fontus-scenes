@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>{% if page.title %} {{ page.title }} | {% endif %} Fontus</title>
+        <link rel="stylesheet" href="/css/fontus.css" />
+        <meta name="description" content="3D Web Browser" />
+        <meta name="author" content="{{site.author}}"/>
+    </head>
+
+    <body>
+        <section>
+          <header>
+
+            <h1>
+              <a href='/'>
+                <img src='icon.png' style='width: 64px; margin-right: 10px; position: relative; top: 24px; left: 0px' />
+                Fontus
+              </a>
+            </h1>
+
+              <hr />
+          </header>
+
+          <main>
+              {{ content }}
+          </main>
+
+          <footer>
+              <hr />
+              <p>&copy; <time>2017</time> Ben Nolan</p>
+          </footer>
+        </section>
+    </body>
+
+</html>
