@@ -79,25 +79,20 @@ default scale.
 
 Color, supports only 6 letter hex colors.
 
-## material='color: #ff0000; flat-shading: true;'
+## material='color: red; flat-shading: true'
 
 Takes a css semicolon-seperated style list of properties.
 
-### color: red;
+### material='color: red'
 
-Color, supports only 6 letter hex colors.
+Color property, supports only 6 letter hex colors.
 
-### flat-shading: (true|false);
+### material='flat-shading: (true|false)'
 
 Whether to use flat-shading, or the default phong shader.
 
-### src: image.png
+### material='src: image.png'
 
 An image to use as the texture.
-
-# Todos:
-
-* .mtl support
-* Use urls() for `material="src:url(...)"`
 
 </div>
