@@ -17,6 +17,28 @@
   a{
     color: #4ECDC4;
   }
+
+  .keys dt{
+    position: absolute;
+  }
+
+  .keys dd{
+    margin-left: 70px;
+    min-height: 40px;
+    padding-top: 4px;
+  }
+
+  .key{
+    border: 1px solid #ccc;
+    background: linear-gradient(#eee, #fff);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    width: 48px;
+    padding: 4px;
+    display: inline-block;
+    text-align: center;
+    color: #555;
+    border-radius: 4px;
+  }
 </style>
 
 <body>
@@ -25,7 +47,7 @@
   <h1><img src='icon.png' style='width: 64px; position: relative; top: 24px; left: -12px' /> Fontus</h1>
 
   <p>
-    &raquo; Download the latest build from <a href="https://bnolan.itch.io/fontus">itch.io</a>.
+    &raquo; Download the latest build from <a href="https://bnolan.itch.io/fontus">itch.io</a>
   </p>
 
   <!--p>
@@ -33,10 +55,29 @@
   </p-->
 
   <p>
-    &raquo; <a href="a-minus.html">A-minus</a> markup reference.
+    &raquo; <a href="a-minus.html">A-minus</a> markup reference
+  </p>
+
+  <p>&raquo;  Keyboard controls</p>
+
+  <dl class='keys'>
+    <dt><span class='key'>W</span></dt>
+    <dd>Move forward</dd>
+    <dt><span class='key'>A</span></dt>
+    <dd>Step left</dd>
+    <dt><span class='key'>S</span></dt>
+    <dd>Move back</dd>
+    <dt><span class='key'>D</span></dt>
+    <dd>Step right</dd>
+    <dt><span class='key'>&#8984; + R</span></dt>
+    <dd>Reload the current page</dd>
+    <dt><span class='key'>&#8984; + V</span></dt>
+    <dd>Paste a URL to load</dd>
   </p>
 
   <p>
     See you in the  🌏.
   </p>
+
+
 </section>

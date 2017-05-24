@@ -26,7 +26,8 @@ An empty node that allows you to nest transforms and group objects.
 
 ## a-hypercard
 
-Renders basic html (very basic renderer, no javascript, no videos, no flash).
+Renders basic html (very basic renderer, no javascript, no videos, no flash)
+onto a transparent plane.
 
 ```
 <a-hypercard>
@@ -49,7 +50,15 @@ Renders a cube.
 Renders a sphere.
 
 ```
-<a-box color='#00aaff' position='1 2 3' scale='4 4 4' />
+<a-sphere color='#00aaff' position='1 2 3' scale='4 4 4' />
+```
+
+## a-plane
+
+Renders a plane on the X-Y axis.
+
+```
+<a-plane color='#00aaff' position='1 2 3' scale='4 4 4' rotation='-90 0 0' />
 ```
 
 ## a-obj-model
@@ -94,5 +103,9 @@ Whether to use flat-shading, or the default phong shader.
 ### material='src: image.png'
 
 An image to use as the texture.
+
+### material='repeat: 10 10'
+
+Number of times to repeat the texture on x and y
 
 </div>
